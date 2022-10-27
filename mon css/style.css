@@ -1,32 +1,208 @@
 *{
-    background-color: rgb(145, 160, 172);
+    background-color: none;
     width: 300px;
-    position: relative;
     left: 25%;
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
 }
-a{
-    border: 1px solid rgb(121, 186, 230);
-    box-shadow: 1px 1px 1px 1px black;
-    text-decoration: none;
-    color: white;
-}
+
 img{
-    border-radius: 2px 2px 2px 2px;
-    box-shadow: 1px 1px 1px 1px black;
-    height: 50vh;
-    border: 3px dotted wheat;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 1px 2px 1px 2px rgb(160, 159, 159);
+    height: 25vh;
+    width: 160px;
+    border: none;
 
 
 }
 h1{
-    border: 1px solid rgb(121, 186, 230);
-    box-shadow: 1px 1px 1px 1px black;
-    font-size: 20px;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    margin-left: 60%;
+    margin-top: -35%;
 }
+#mail{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+#paragraphe{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200%;
+    padding: 10px 10px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 102%;
+    top: -40px;
+    width: 105px;
+    height: 4vh;
+    background: rgb(25, 160, 214);
+    border: none;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+#num{
+    color: rgb(73, 161, 219);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#git{
+    color: rgb(73, 161, 219);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 480px;
+    margin-top: -11%;
+    width: 120px;
+
+}
+a{
+    text-decoration: none;
+}
+#ligne{
+    border: 1px solid rgb(150, 146, 146);
+    width: 198%;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#paragraphe2{
+    width: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.performance{
+
+
+    height: 34vh;
+    width: 200%;
+}
+.github{
+    border-radius: 10px 10px 10px 10px;
+    width: 48%;
+    height: 40%;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+#trente{
+    color: rgb(119, 115, 115);
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+    letter-spacing: normal;
+}
+#hub{
+    color: rgb(119, 115, 115);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -80px 140px;
+}
+#forhub{
+    color: rgb(119, 115, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 76px 130px;
+    font-size: 14px;
+}
+.html{
+    border-radius: 10px 10px 10px 10px;
+    width: 48%;
+    height: 40%;
+    border: 1px solid black;
+    margin-top: -110px;
+    margin-left: 310px;
+}
+#septente{
+    color: rgb(119, 115, 115);
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+    letter-spacing: normal;
+}
+#html5{
+    color: rgb(119, 115, 115);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -80px 140px;
+}
+#forhtml5{
+    color: rgb(119, 115, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 76px 130px;
+    font-size: 14px;
+}
+.css{
+    border-radius: 10px 10px 10px 10px;
+    width: 48%;
+    height: 40%;
+    border: 1px solid rgb(46, 170, 219);
+    margin-top: 20px;
+    margin-left: 0px;
+    background: rgb(46, 170, 219);
+}
+#soissante{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+    letter-spacing: normal;
+}
+#CSS{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -80px 140px;
+}
+#forCSS{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 76px 130px;
+    font-size: 14px;
+}
+.langue{
+    width: 200%;
+    height: 10vh;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+.francais{
+    height: 6vh;
+    width: 140px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+    padding: 8px 10px;
+
+}
+#img1{
+    width: 40%;
+    height: 80%;
+}
+#fr{
+    margin: -30px 72px;
+}
+.anglais{
+    height: 6vh;
+    width: 160px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+    margin: -56px 175px;
+    padding: 8px 10px;
+
+}
+#img2{
+    width: 40%;
+    height: 80%;
+    
+}
+
+
+
+
+
 ul{
     text-align: left;
     position: relative;
