@@ -1,4 +1,7 @@
 *{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background-color: none;
     width: 300px;
     left: 25%;
@@ -163,53 +166,170 @@ h2{
     margin: 76px 130px;
     font-size: 14px;
 }
-.langue{
+
+
+section .langue{
     width: 200%;
     height: 10vh;
     border: 1px solid black;
     padding: 10px 10px;
+    border-radius: none;
 }
-.francais{
-    height: 6vh;
+/* languages */
+.languagefr{
+    height: 8vh;
     width: 140px;
-    border-radius: 10px 10px 10px 10px;
     border: 1px solid black;
-    padding: 8px 10px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 10px 10px;
 }
-#img1{
-    width: 40%;
-    height: 80%;
+.languagefr:hover{
+    border: 1px solid rgb(46, 170, 219);
+    color: rgb(46, 170, 219);
+    box-shadow: 1px 1px 1px 1px rgb(235, 230, 230);
 }
-#fr{
-    margin: -30px 72px;
-}
-.anglais{
-    height: 6vh;
-    width: 160px;
-    border-radius: 10px 10px 10px 10px;
-    border: 1px solid black;
-    margin: -56px 175px;
-    padding: 8px 10px;
-
-}
-#img2{
-    width: 40%;
-    height: 80%;
+.flagfr{
+    width: 35px;
+    height: 35px;
+    box-shadow: none;
     
 }
-
-
-
-
-
-ul{
-    text-align: left;
-    position: relative;
+.namefr{
+    margin: 0px 10px;
 }
-h3{
-    border: 1px solid rgb(121, 186, 230);
-    box-shadow: 1px 1px 1px 1px black;
-    text-align: center;
-    background: rgb(110, 159, 233);
+.languageen{
+    height: 8vh;
+    width: 140px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -71px 200px;
+    padding: 10px 10px;
 }
+.languageen:hover{
+    border: 1px solid rgb(46, 170, 219);
+    color: rgb(46, 170, 219);
+    box-shadow: 1px 1px 1px 1px rgb(235, 230, 230);
+}
+.flagen{
+    width: 35px;
+    height: 35px;
+    box-shadow: none;
+    
+}
+.nameen{
+    margin: 0px 10px;
+}
+
+.languagesw{
+    height: 8vh;
+    width: 140px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 380px;
+    padding: 10px 10px;
+}
+.languagesw:hover{
+    border: 1px solid rgb(46, 170, 219);
+    color: rgb(46, 170, 219);
+    box-shadow: 1px 1px 1px 1px rgb(235, 230, 230);
+}
+.flagsw{
+    width: 35px;
+    height: 35px;
+    box-shadow: none;
+    
+}
+.namesw{
+    margin: 0px 10px;
+}
+
+
+.expers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.expers .exp-item1 {
+    width: 25%;
+    padding-right: 10px;
+}
+.expers .exp-item1 .timeline1 {
+    display: flex;
+    align-items: center;
+}
+
+.expers .exp-item1 .timeline1 .line1 {
+    width: 35%;
+    margin-left: 7px;
+    border: none;
+    height: 2px;
+    background-color: #707070;
+}
+
+.expers .exp-item1 .circle1 {
+    background-color: #707070;
+    width: 12px;
+    height: 12px;
+    border-radius: none;
+    display: block;
+}
+.expers .exp-item1 .circle1:hover{
+    background-color: rgb(46, 170, 219); 
+}
+
+.expers .exp-item1 .timeline1:hover .line1,
+.expers .exp-item1 .timeline:hover .circle1  {
+    background-color: rgb(46, 170, 219);
+}
+
+.expers .exp-item1 p {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*          */
+
+.expers .exp-item2 {
+    width: 25%;
+    padding-right: 10px;
+}
+.expers .exp-item2 .timeline2 {
+    display: flex;
+    align-items: center;
+}
+
+.expers .exp-item2 .timeline2 .line2 {
+    width: 35%;
+    margin-left: 7px;
+    border: none;
+    height: 2px;
+    background-color: #707070;
+}
+
+.expers .exp-item2 .circle2 {
+    background-color: #707070;
+    width: 12px;
+    height: 12px;
+    border-radius: none;
+    display: block;
+}
+.expers .exp-item2 .circle2:hover{
+    background-color: rgb(46, 170, 219); 
+}
+
+.expers .exp-item2 .timeline2:hover .line2,
+.expers .exp-item2 .timeline:hover .circle2  {
+    background-color: rgb(46, 170, 219);
+}
+.expers .exp-item2 p {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
